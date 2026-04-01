@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background: #f9fafb;
+  min-height: 42px;
+  transition: border-color 0.15s;
+  cursor: text;
+}
+.container:focus-within { border-color: #4F6EF7; background: #fff; }
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #e8edfe;
+  color: #3a56d4;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.removeBtn {
+  background: none;
+  border: none;
+  color: #3a56d4;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  padding: 0;
+  opacity: 0.7;
+}
+.removeBtn:hover { opacity: 1; }
+
+.input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 13px;
+  flex: 1;
+  min-width: 120px;
+  color: #1a1d23;
+}
